@@ -46,7 +46,7 @@ jobs:
           php-version: ${{ matrix.php }}
           extensions: dom, libxml, mysqli
           coverage: none
-      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
         with:
           node-version: '24'
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
